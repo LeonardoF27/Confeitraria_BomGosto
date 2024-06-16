@@ -1,0 +1,121 @@
+#titulo {
+  font-size: 3vw;
+  font-weight: bold;
+}
+
+.rotulo {
+  width: 200px;
+}
+
+#setcli {
+  border-radius: 20px;
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 5%;
+}
+
+#codigo {
+  width: 20%;
+  margin-bottom: 1%;
+}
+
+#nome {
+  width: 79.5%;
+  margin-bottom: 1%;
+}
+
+#logradouro {
+  width: 79.5%;
+  margin-bottom: 1%;
+}
+
+#numero {
+  width: 15%;
+  margin-bottom: 1%;
+}    
+
+#bairro {
+  width: 52.5%;
+}
+
+#cep {
+  width: 20%;
+  margin-bottom: 1%;
+}
+
+#email {
+  width: 79%;
+  margin-bottom: 1%;
+}
+
+#telefone {
+  width: 32.5%;
+  margin-bottom: 1%;
+}
+
+#celular {
+  width: 33%;
+}
+
+#salvar {
+  width: 120px;
+  height: 30px;
+  margin-left: 19%;
+  background: #0000FF;
+  color: #FFFFFF;
+  border: 2px #FFFF00 solid;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+fieldset {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+#titulo {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.form-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+label {
+  width: 200px; /* Altere este valor conforme necessário */
+  margin-right: 10px;
+}
+
+input[type="text"], input[type="number"], input[type="email"], input[type="tel"] {
+  width: 100px;
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.preco {
+  font-weight: bold;
+  color: #333;
+  margin-left: auto;
+}
+
+button, .btn-azul {
+  display: block;
+  padding: 10px 30px;
+  margin-top: 30px;
+  background-color: #008CBA; /* Azul */
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover, .btn-azul:hover {
+  background-color: #007bb5;
+}

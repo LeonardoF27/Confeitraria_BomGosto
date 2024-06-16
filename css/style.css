@@ -1,0 +1,147 @@
+/* Index  */
+body {
+    background-color: white;
+    height: 100vh;
+}
+
+.logo {
+    height: 50px;
+}
+
+.cabecalho {
+    background-color: rgba(255, 200, 196, 0.586);
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: black 2px solid;
+}
+
+.corpo {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgba(255, 228, 196, 0.586);
+}
+
+.card {
+    border: black 1px solid;
+    padding: 50px 25px 50px 25px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.rodape {
+    background-color: white;
+    border-top: 2px solid black;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.titulo {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.label {
+    width: 350px;
+    margin-bottom: 6px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.buttom {
+    height: 30px;
+    width: 120px;
+    background-color: rgba(255, 200, 196, 0.586);
+    border: 1px solid;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 10px;
+}
+
+.zap {
+    font-weight: 500;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+}
+
+/* Processar pedido */
+
+.img {
+    height: 90px;
+    width: 90px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.pedidos {
+    display: flex;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    gap: 7px;
+}
+
+.form__pedidos {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.buttom__processar {
+    height: 30px;
+    width: 200px;
+    background-color: rgba(255, 200, 196, 0.586);
+    border: 1px solid;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 10px;
+}
+
+.total__pedidos {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    margin-bottom: 5px; 
+    font-weight: 600;  
+}
+
+/* Form Dados pessoais */
+
+.form__dados {
+    display: flex;
+    align-items: center;
+    margin: 10px 0 10px 0;
+}
+
+.form__dado {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0 10px 0;
+}
+
+.form__input {
+    width: 100%;
+}
+
+.rotulo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    margin: 0 4px;
+}
+
+/*  */
